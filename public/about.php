@@ -20,7 +20,7 @@ require_once __DIR__ . '/../includes/header.php';
                     <p>Based in Scotland, we serve clients across the marine, commercial, and social sectors. Whether you need rust removed from a boat hull, stone cleaned on a building facade, or graffiti removed from public spaces, our laser ablation technology delivers results without the mess, chemicals, or damage of traditional methods.</p>
                 </div>
                 <div class="about-intro-image">
-                    <img src="/images/rusty-boat-beach.png" alt="Laser cleaning in action - marine application">
+                    <img src="/images/cleaning-building.png" alt="Laser cleaning in action - commercial building facade">
                 </div>
             </div>
         </div>
