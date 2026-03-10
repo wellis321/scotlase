@@ -381,6 +381,13 @@ main {
     background: var(--color-surface);
     border-radius: 8px;
     border: 1px solid rgba(255, 255, 255, 0.06);
+    transition: transform 0.15s ease-out, box-shadow 0.15s ease-out, border-color 0.15s ease-out;
+}
+
+.advantage:hover {
+    transform: scale(1.06);
+    box-shadow: 0 12px 40px rgba(0, 0, 0, 0.4);
+    border-color: var(--color-accent);
 }
 
 .advantage h4 {
