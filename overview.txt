@@ -1,0 +1,21 @@
+the ssite will be in php and sql.
+
+DB_HOST=localhost:8889
+DB_NAME=scotlase
+DB_USER=root
+DB_PASS=root
+
+start the server with php -S localhost:8000
+
+the site is for a ccompany that cleans boats using specialised equipment
+they provide all the serves that can be found on https://www.flaser.eu/
+
+The machines are brand new , we are targeting marine work rust removal leaving good metal, commercial same as above and stone cleaning, and social, graffiti removal etc 
+
+They bought X2 2000 watt and X1 6000 watt machines from https://hantencnc.com/
+
+use the https://manufact-wbs.framer.website/
+
+the company is called scotlase solutions
+
+just add placeholder content and images relevant to a company like this for the timee being please
