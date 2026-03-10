@@ -4,12 +4,12 @@ require_once __DIR__ . '/../includes/header.php';
 ?>
 
 <section class="hero">
-    <div class="hero-bg" style="background-image: url('images/facades.png');"></div>
+    <div class="hero-bg" style="background-image: url('/images/facades.png');"></div>
     <div class="hero-content">
         <p class="hero-tagline hero-anim">Trusted laser cleaning partner</p>
         <h1 class="hero-anim hero-anim-2">Laser cleaning for marine, commercial & social applications</h1>
         <p class="hero-sub hero-anim hero-anim-3">We deliver precision surface treatment using advanced fibre laser technology—rust removal, stone cleaning, graffiti removal, and more—engineered for quality and efficiency.</p>
-        <a href="services.php" class="btn btn-primary hero-anim hero-anim-4">Explore our services</a>
+        <a href="/services.php" class="btn btn-primary hero-anim hero-anim-4">Explore our services</a>
     </div>
 </section>
 
@@ -35,7 +35,7 @@ require_once __DIR__ . '/../includes/header.php';
         </div>
         <p class="about-text scroll-reveal">Scotlase Solutions specialises in laser ablation cleaning—a non-abrasive, environmentally friendly process that removes rust, paint, graffiti, and coatings while preserving the base material. Our brand-new Hantencnc equipment delivers consistent, high-quality results for marine, commercial, and social applications.</p>
         <div class="about-preview-cta scroll-reveal">
-            <a href="about.php" class="btn btn-secondary">Learn more about us</a>
+            <a href="/about.php" class="btn btn-secondary">Learn more about us</a>
         </div>
     </div>
 </section>
@@ -47,30 +47,30 @@ require_once __DIR__ . '/../includes/header.php';
             <h2>Scalable capabilities for every challenge</h2>
         </div>
         <div class="services-grid">
-            <a href="services.php#marine" class="service-card scroll-reveal" data-delay="0">
+            <a href="/services.php#marine" class="service-card scroll-reveal" data-delay="0">
                 <div class="service-image">
-                    <img src="https://images.pexels.com/photos/21700771/pexels-photo-21700771.jpeg?auto=compress&cs=tinysrgb&w=600&fit=crop" alt="Marine laser cleaning - rusty boat hull">
+                    <img src="/images/cleaning hull.png" alt="Marine laser cleaning - rusty boat hull">
                 </div>
                 <h3>Marine</h3>
                 <p>Rust removal on boats and metal structures, leaving clean metal ready for coating.</p>
             </a>
-            <a href="services.php#commercial" class="service-card scroll-reveal" data-delay="1">
+            <a href="/services.php#commercial" class="service-card scroll-reveal" data-delay="1">
                 <div class="service-image">
-                    <img src="images/laser-ablation.png" alt="Commercial industrial cleaning - laser ablation">
+                    <img src="/images/laser-ablation.png" alt="Commercial industrial cleaning - laser ablation">
                 </div>
                 <h3>Commercial</h3>
                 <p>Industrial rust removal and stone cleaning for commercial premises.</p>
             </a>
-            <a href="services.php#social" class="service-card scroll-reveal" data-delay="2">
+            <a href="/services.php#social" class="service-card scroll-reveal" data-delay="2">
                 <div class="service-image">
-                    <img src="images/graffiti-cleaning.png" alt="Social - graffiti removal and surface restoration">
+                    <img src="/images/graffiti-cleaning.png" alt="Social - graffiti removal and surface restoration">
                 </div>
                 <h3>Social</h3>
                 <p>Graffiti removal and surface restoration for public spaces.</p>
             </a>
         </div>
         <div class="section-cta scroll-reveal">
-            <a href="services.php" class="btn btn-primary">Explore all capabilities</a>
+            <a href="/services.php" class="btn btn-primary">Explore all capabilities</a>
         </div>
     </div>
 </section>
@@ -105,7 +105,7 @@ require_once __DIR__ . '/../includes/header.php';
 <section class="cta-section">
     <div class="container">
         <h2 class="scroll-reveal">Ready to start your next project?</h2>
-        <a href="contact.php" class="btn btn-primary scroll-reveal" data-delay="0">Get in touch</a>
+        <a href="/contact.php" class="btn btn-primary scroll-reveal" data-delay="0">Get in touch</a>
     </div>
 </section>
 

@@ -20,7 +20,7 @@ require_once __DIR__ . '/../includes/header.php';
                     <p>Based in Scotland, we serve clients across the marine, commercial, and social sectors. Whether you need rust removed from a boat hull, stone cleaned on a building facade, or graffiti removed from public spaces, our laser ablation technology delivers results without the mess, chemicals, or damage of traditional methods.</p>
                 </div>
                 <div class="about-intro-image">
-                    <img src="images/rusty-boat-beach.png" alt="Laser cleaning in action - marine application">
+                    <img src="/images/rusty-boat-beach.png" alt="Laser cleaning in action - marine application">
                 </div>
             </div>
         </div>
@@ -28,7 +28,7 @@ require_once __DIR__ . '/../includes/header.php';
         <div class="content-block equipment-section scroll-reveal">
             <div class="equipment-layout">
                 <div class="equipment-image equipment-image-left">
-                    <img src="images/laser-cleaner-1.png" alt="Hantencnc pulse laser cleaner - 1000W–2000W">
+                    <img src="/images/laser-cleaner-1.png" alt="Hantencnc pulse laser cleaner - 1000W–2000W">
                 </div>
                 <div class="equipment-content">
                     <h2>Our equipment</h2>
@@ -40,11 +40,11 @@ require_once __DIR__ . '/../includes/header.php';
                     <p>Laser ablation is a non-abrasive, environmentally friendly process that removes contaminants with minimal interference to the base material. Unlike sandblasting or chemical stripping, there's no dust, no runoff, and no damage to the substrate—ideal for metal, stone, composites, and more.</p>
                 </div>
                 <div class="equipment-image equipment-image-right">
-                    <img src="images/laser-cleaner-2.png" alt="Hantencnc pulse laser cleaner">
+                    <img src="/images/laser-cleaner-2.png" alt="Hantencnc pulse laser cleaner">
                 </div>
             </div>
             <div class="equipment-image equipment-image-bottom">
-                <img src="images/laser-ablation.png" alt="Laser ablation in action - rust removal">
+                <img src="/images/laser-ablation.png" alt="Laser ablation in action - rust removal">
             </div>
         </div>
 
@@ -85,7 +85,7 @@ require_once __DIR__ . '/../includes/header.php';
         </div>
 
         <div class="content-block cta-block scroll-reveal">
-            <a href="contact.php" class="btn btn-primary">Get in touch</a>
+            <a href="/contact.php" class="btn btn-primary">Get in touch</a>
         </div>
     </div>
 </section>

@@ -40,12 +40,15 @@ if (file_exists($path) && is_file($path)) {
     }
 }
 
-// Try adding .php for clean URLs
+// Try adding .php for clean URLs (e.g. /services -> services.php)
 $phpPath = $base . $uri . (str_ends_with($uri, '/') ? 'index' : '') . '.php';
 if (file_exists($phpPath) && is_file($phpPath)) {
     chdir($base);
     require $phpPath;
-    return true;
+    return true;  // Must return true so server uses our output, not index.php
 }
 
-return false;
+// 404 - return true with 404 so server doesn't fall back to index.php
+http_response_code(404);
+echo '404 Not Found';
+return true;

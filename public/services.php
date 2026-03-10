@@ -14,7 +14,7 @@ require_once __DIR__ . '/../includes/header.php';
     <div class="container">
         <div class="service-detail-card scroll-reveal">
             <div class="service-detail-image">
-                <img src="https://images.pexels.com/photos/21700771/pexels-photo-21700771.jpeg?auto=compress&cs=tinysrgb&w=800&fit=crop" alt="Marine rust removal - boat hull laser cleaning">
+                <img src="/images/cleaning hull.png" alt="Marine rust removal - boat hull laser cleaning">
             </div>
             <div class="service-detail-content">
                 <h2>Marine</h2>
@@ -34,7 +34,7 @@ require_once __DIR__ . '/../includes/header.php';
                 <p>Suitable for factories, warehouses, listed buildings, and infrastructure projects. Stone, brick, concrete, and metal—all without chemicals or abrasive damage.</p>
             </div>
             <div class="service-detail-image">
-                <img src="images/laser-ablation.png" alt="Commercial industrial cleaning - laser ablation">
+                <img src="/images/laser-ablation.png" alt="Commercial industrial cleaning - laser ablation">
             </div>
         </div>
     </div>
@@ -44,7 +44,7 @@ require_once __DIR__ . '/../includes/header.php';
     <div class="container">
         <div class="service-detail-card scroll-reveal">
             <div class="service-detail-image">
-                <img src="images/graffiti-cleaning.png" alt="Graffiti removal and surface restoration">
+                <img src="/images/graffiti-cleaning.png" alt="Graffiti removal and surface restoration">
             </div>
             <div class="service-detail-content">
                 <h2>Social</h2>
@@ -73,7 +73,7 @@ require_once __DIR__ . '/../includes/header.php';
             </div>
         </div>
         <div class="section-cta scroll-reveal">
-            <a href="contact.php" class="btn btn-primary">Request a quote</a>
+            <a href="/contact.php" class="btn btn-primary">Request a quote</a>
         </div>
     </div>
 </section>

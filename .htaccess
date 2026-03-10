@@ -1,0 +1,20 @@
+# When document root is repo root (e.g. Hostinger Git deploy)
+# Route all requests to public/ so URLs stay clean: /, /about, /css/..., /images/...
+
+RewriteEngine On
+RewriteBase /
+
+# Route / to public/index.php
+RewriteRule ^$ public/index.php [L]
+
+# Route clean URLs to public/
+RewriteRule ^(about|services|contact)$ public/$1.php [L,QSA]
+
+# Route index.php to public/
+RewriteRule ^index\.php$ public/index.php [L,QSA]
+
+# Route static assets (css, js, images) to public/
+RewriteRule ^(css|js|images)/(.*)$ public/$1/$2 [L]
+
+# Route any other .php request to public/
+RewriteRule ^([^/]+\.php)$ public/$1 [L,QSA]

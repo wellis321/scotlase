@@ -12,16 +12,16 @@
                 <p>Scotland, UK</p>
             </div>
             <div class="footer-nav">
-                <a href="index.php">Home</a>
-                <a href="about.php">About</a>
-                <a href="services.php">Services</a>
-                <a href="contact.php">Contact</a>
+                <a href="/">Home</a>
+                <a href="/about.php">About</a>
+                <a href="/services.php">Services</a>
+                <a href="/contact.php">Contact</a>
             </div>
         </div>
         <div class="footer-bottom">
             <p>&copy; <?= date('Y') ?> <?= htmlspecialchars(SITE_NAME) ?>. All rights reserved.</p>
         </div>
     </footer>
-    <script src="js/main.js"></script>
+    <script src="/js/main.js"></script>
 </body>
 </html>

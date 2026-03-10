@@ -1,6 +1,7 @@
 <?php
 /**
- * Root index - redirects to public/ when document root is project root
+ * Root index - serves public content when document root is project root.
+ * With router.php, this is never reached. With Apache + .htaccess, / routes to public/.
  */
-header('Location: public/');
-exit;
+chdir(__DIR__ . '/public');
+require __DIR__ . '/public/index.php';

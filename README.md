@@ -19,10 +19,10 @@ Website for Scotlase Solutions, a laser cleaning company specialising in marine,
 2. Start the PHP built-in server (from project root):
 
    ```bash
-   php -S localhost:8000 router.php
+   php -S localhost:8000 -t public
    ```
 
-   Or with explicit document root: `php -S localhost:8000 -t public`
+   This uses `public/` as the document root so all pages and assets load correctly.
 
 3. Open [http://localhost:8000](http://localhost:8000)
 

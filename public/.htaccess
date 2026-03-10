@@ -1,0 +1,13 @@
+# Enable rewrite engine
+RewriteEngine On
+RewriteBase /
+
+# Don't rewrite if the request is for an existing file or directory
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+# Route / to index.php
+RewriteRule ^$ index.php [L]
+
+# Route clean URLs: /about -> about.php, /services -> services.php, etc.
+RewriteRule ^(about|services|contact)$ $1.php [L,QSA]
